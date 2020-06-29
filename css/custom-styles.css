@@ -1,0 +1,340 @@
+html{
+    scroll-behavior: smooth;
+}
+.img-item{
+    cursor: pointer;
+}
+.img-item a{
+    text-decoration: none;
+}
+.img-overlay{
+    opacity: 0.3;
+    background-color: rgb(35, 35, 35);
+}
+.input-holder{
+    width: 100%;
+}
+.input-holder p label{
+    font-family: 'Rubik', sans-serif;
+}
+.input-group-btn{
+    width: 100%;
+}
+.input-group-btn > button{
+    width: 100%;
+}
+.login-extra-link{
+    color: #0082b6 !important;
+}
+.login-extra-link:hover{
+    color: #0082b6 !important;
+    text-decoration: underline;
+}
+.login-extra{
+    font-family: 'Rubik', sans-serif;
+    color: #0d0d0d;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 8px !important;
+}
+.login-extra:hover{
+    color: #0d0d0d;
+}
+.cards-holder{
+    margin-left: 8px;
+    margin-right: 24px;
+}
+
+.account-card{
+    background-color: #f5f1f1;
+    color: #333333;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;    
+    margin: 8px;
+    display: table;
+}
+.checkout-card{
+    background-color: #ffffff;
+    color: #333333;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;    
+    margin: 8px;
+    display: table;
+}
+.checkout-card-activated{
+    background-color: #d6d3d3;
+    color: #333333;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;    
+    margin: 8px;
+    display: table;
+}
+.card-wrapper{
+    background-color: #f5f1f1;
+    box-shadow: 0 4px 8px 0 rgba(65, 41, 41, 0.2);
+}
+.transition-hover{
+    -o-transition:color .2s ease-out, background 0.2s ease-in;
+    -ms-transition:color .2s ease-out, background 0.2s ease-in;
+    -moz-transition:color .2s ease-out, background 0.2s ease-in;
+    -webkit-transition:color .2s ease-out, background 0.2s ease-in;
+    transition:color .2s ease-out, background 0.2s ease-in;
+}
+
+.transition-hover-img{
+    -o-transition:filter 0.2s ease-in;
+    -ms-transition:filter 0.2s ease-in;
+    -moz-transition:filter 0.2s ease-in;
+    -webkit-transition: filter 0.2s ease-in;
+    transition: filter 0.2s ease-in;
+}
+.account-card:hover{
+    background-color: #333333;
+    color: #fff;
+
+}
+.account-logout-card:hover{
+    background-color: #d50000 !important;
+    color: #fff;
+
+}
+.account-card img{
+    max-height: 56px;
+}
+.account-card:hover img{
+    filter: invert(100%);
+}
+.card-title
+{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 16px;
+    display: inline;
+}
+.card-image{
+    display: inline;
+}
+.checkout-card-image{
+    max-width: 48px;
+    display: inline;
+}
+.my-footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+}
+.card-link-holder{
+    background: transparent;
+    border: none;
+    text-decoration: none; 
+    width: 100%;
+}
+.card-checkout-holder{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    text-decoration: none; 
+    width: 100%;
+}
+.items-container{
+    padding-bottom: 96px; 
+    background-color: #fff !important;
+}
+
+.item-card{
+    margin: 14px 0px;
+    max-width: 262px !important;
+}
+.card-box{
+    padding: 16px;
+    padding-bottom: 16px !important;
+}
+.container{
+    max-width: 100% !important;
+    padding: 0 32px;
+}
+.item-card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: normal;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 18px;
+}
+.item-card-text{
+    display: block;
+    line-height: 16px;
+    max-height: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: normal;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+.sorting-container{
+    padding: 0 19px !important;
+    background-color: white;
+}
+.item-card .card-wrapper .card-img img{
+    height: 239px;
+    object-fit: cover;
+}
+.dropdown-button{
+    width: 100%;
+}
+
+.item-details-section{
+    background-color: #fff;
+    padding-bottom: 56px;
+    padding-top: 24px;
+}
+.item-details-text{
+    padding: 32px;
+}
+.item-details-header{
+    margin: 0;
+    font-weight: bold;
+}
+.item-details{
+    padding: 16px 0;
+}
+.item-button a{
+    margin: 4px 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-remove{
+    border-color: #d50000;
+    color: #d50000;
+}
+.btn-remove:hover{
+    border-color: #d50000;
+    background-color: #d50000;
+    color: #fff;
+}
+
+.btn-checkout{
+    border-color: #16aa16;
+    color: #16aa16;
+}
+.btn-checkout:hover{
+    border-color: #16aa16;
+    background-color: #16aa16;
+    color: #fff;
+}
+.btn-page{
+    border-color: #0d0d0d;
+    color: #0d0d0d;
+}
+.btn-page:hover{
+    border-color: #0d0d0d;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+.btn-size-selected{
+    cursor: pointer;
+    border-color: #0d0d0d;
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+.btn-size-selected:hover{
+    color: #ffffff !important;
+}
+.btn-size-unselected{
+    cursor: pointer;
+    border-color: #0d0d0d;
+    color: #0d0d0d;
+}
+.sizes{
+    padding-bottom: 24px;
+}
+.size-btn-holder button{
+    padding: 16px;
+}
+.sizes h4{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+.errorMessage{
+    display: block;
+    font-size: 12px;
+    color: #d50000;
+    font-weight: bold;
+}
+.successMessage{
+    display: block;
+    font-size: 12px;
+    color: #24a00b;
+    font-weight: bold;
+}
+.header-dropdown-menu{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.item-img-holder img{
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+    object-position: center;
+}
+.item-img-holder{
+    width: 648px;
+    max-width: 419px;
+}
+
+.search-dropdown{
+    padding: 8px;
+}
+.btn-search{
+    margin: 6px auto !important;
+    width: 100%;
+}
+.search-input{
+    margin: 8px 0px;
+    font-size: 20px;
+    padding: 32px;
+}
+
+.cid-rilxrY0od0 .media-container-row .img-item .img-cont img{
+    height: 356px;
+}
+
+.google-map{
+    height: 536px;
+    width: 100%;
+}
+.google-map iframe{
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.checkout-prices h3{
+    display: block;
+    width: 100%;
+}
+
+.btn-item-unclickable,{
+    background-color: #55666b !important;
+    border-color: #55666b !important;
+    color: #ffffff;
+}
+
+
+
