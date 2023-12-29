@@ -2,6 +2,8 @@
 
 PopeInc is a clothing website made with Bootstrap, MySQL and PHP. It provides customers with the latest and hottest brands and clothing available.
 
+# Screenshots
+
 ![6](https://github.com/mnm967/PopeIncWeb/assets/67553368/7b139ba6-4cd9-43e8-b4ec-92814a4723dc)
 ![5](https://github.com/mnm967/PopeIncWeb/assets/67553368/cd95a8d0-cf62-4a22-8219-a869baa659f2)
 ![4](https://github.com/mnm967/PopeIncWeb/assets/67553368/3c5a99d6-4fb5-41ae-9948-4620814f0008)
