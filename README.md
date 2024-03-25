@@ -1,6 +1,6 @@
 # PopeInc - PHP / MySQL
 
-PopeInc is a clothing website made with Bootstrap, MySQL and PHP. It provides customers with the latest and hottest brands and clothing available.
+PopeInc is a clothing website made with HTML/CSS, MySQL and PHP. It provides customers with the latest and hottest brands and clothing available.
 
 # Screenshots
 
