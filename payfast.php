@@ -83,7 +83,7 @@
 
     $pfData = array('pf_payment_id' => '1234', 'payment_status' => 'COMPLETE');
     $pfPaymentId = $pfData['pf_payment_id'];
-    //TODO Replace
+
     $userId = $_SESSION['userLoggedIn'];
     $existsCheck = mysqli_query($sqlConnection, "SELECT id FROM orders WHERE payfastId='$pfPaymentId' AND userId='$userId'");
     if(mysqli_num_rows($existsCheck) != 0){
